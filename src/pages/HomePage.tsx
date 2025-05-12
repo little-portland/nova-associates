@@ -44,7 +44,7 @@ const HomePage: React.FC = () => {
           <h2 className="text-3xl font-semibold mb-4">Ready to Transform Your Energy Business?</h2>
           <p className="text-lg mb-8">Partner with Nova Associates to lead the change.</p>
           <Link to="/about">
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-800">Learn More About Us</Button>
+            <Button size="lg" variant="outline" className="border-white text-blue-800 hover:bg-white hover:text-blue-800">Learn More About Us</Button>
           </Link>
         </div>
       </section>
