@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { Mail, Phone, Linkedin } from 'lucide-react'; // Using lucide-react icons
+import { Mail } from 'lucide-react'; // Using lucide-react icons
 
 const ContactPage: React.FC = () => {
   // Placeholder contact info - replace with actual details later
