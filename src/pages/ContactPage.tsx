@@ -9,9 +9,9 @@ const ContactPage: React.FC = () => {
   // Placeholder contact info - replace with actual details later
   const contactDetails = {
     email: "info@novaassociates.consulting",
-    phone: "+1-XXX-XXX-XXXX",
+    // phone: "+1-XXX-XXX-XXXX",
     // address: "123 Energy Lane, Houston, TX 77002, USA", // Optional
-    linkedin: "#" // Placeholder link
+    // linkedin: "#" // Placeholder link
   };
 
   // Basic form handling simulation (no actual submission logic here)
