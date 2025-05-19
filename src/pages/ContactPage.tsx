@@ -8,10 +8,10 @@ import { Mail, Phone, Linkedin } from 'lucide-react'; // Using lucide-react icon
 const ContactPage: React.FC = () => {
   // Placeholder contact info - replace with actual details later
   const contactDetails = {
-    email: "info@novaassociates.consulting",
-    phone: "+1-XXX-XXX-XXXX",
+    email: "info@novaassociates.consulting"
+    // phone: "+1-XXX-XXX-XXXX",
     // address: "123 Energy Lane, Houston, TX 77002, USA", // Optional
-    linkedin: "#" // Placeholder link
+    // linkedin: "#" // Placeholder link
   };
 
   // Basic form handling simulation (no actual submission logic here)
@@ -44,7 +44,7 @@ const ContactPage: React.FC = () => {
               <Mail className="h-5 w-5 text-blue-600" />
               <a href={`mailto:${contactDetails.email}`} className="hover:text-blue-700 transition duration-150">{contactDetails.email}</a>
             </div>
-            <div className="flex items-center space-x-3">
+            {/*<div className="flex items-center space-x-3">
               <Phone className="h-5 w-5 text-blue-600" />
               <span>{contactDetails.phone}</span>
             </div>
@@ -57,7 +57,7 @@ const ContactPage: React.FC = () => {
             <div className="flex items-center space-x-3">
               <Linkedin className="h-5 w-5 text-blue-600" />
               <a href={contactDetails.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-blue-700 transition duration-150">Connect on LinkedIn</a>
-            </div>
+            </div>*/}
           </div>
         </section>
 
