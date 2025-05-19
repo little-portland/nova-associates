@@ -44,20 +44,6 @@ const ContactPage: React.FC = () => {
               <Mail className="h-5 w-5 text-blue-600" />
               <a href={`mailto:${contactDetails.email}`} className="hover:text-blue-700 transition duration-150">{contactDetails.email}</a>
             </div>
-            {/*<div className="flex items-center space-x-3">
-              <Phone className="h-5 w-5 text-blue-600" />
-              <span>{contactDetails.phone}</span>
-            </div>
-            {/* {contactDetails.address && (
-              <div className="flex items-start space-x-3">
-                <MapPin className="h-5 w-5 text-blue-600 mt-1 flex-shrink-0" />
-                <span>{contactDetails.address}</span>
-              </div>
-            )} */}
-            <div className="flex items-center space-x-3">
-              <Linkedin className="h-5 w-5 text-blue-600" />
-              <a href={contactDetails.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-blue-700 transition duration-150">Connect on LinkedIn</a>
-            </div>*/}
           </div>
         </section>
 
