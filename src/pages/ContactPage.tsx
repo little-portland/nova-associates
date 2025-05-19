@@ -9,9 +9,9 @@ const ContactPage: React.FC = () => {
   // Placeholder contact info - replace with actual details later
   const contactDetails = {
     email: "info@novaassociates.consulting",
-    // phone: "+1-XXX-XXX-XXXX",
+    phone: "+1-XXX-XXX-XXXX",
     // address: "123 Energy Lane, Houston, TX 77002, USA", // Optional
-    // linkedin: "#" // Placeholder link
+    linkedin: "#" // Placeholder link
   };
 
   // Basic form handling simulation (no actual submission logic here)
@@ -43,6 +43,20 @@ const ContactPage: React.FC = () => {
             <div className="flex items-center space-x-3">
               <Mail className="h-5 w-5 text-blue-600" />
               <a href={`mailto:${contactDetails.email}`} className="hover:text-blue-700 transition duration-150">{contactDetails.email}</a>
+            </div>
+            <div className="flex items-center space-x-3">
+              <Phone className="h-5 w-5 text-blue-600" />
+              <span>{contactDetails.phone}</span>
+            </div>
+            {/* {contactDetails.address && (
+              <div className="flex items-start space-x-3">
+                <MapPin className="h-5 w-5 text-blue-600 mt-1 flex-shrink-0" />
+                <span>{contactDetails.address}</span>
+              </div>
+            )} */}
+            <div className="flex items-center space-x-3">
+              <Linkedin className="h-5 w-5 text-blue-600" />
+              <a href={contactDetails.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-blue-700 transition duration-150">Connect on LinkedIn</a>
             </div>
           </div>
         </section>
@@ -88,4 +102,3 @@ const ContactPage: React.FC = () => {
 };
 
 export default ContactPage;
-
